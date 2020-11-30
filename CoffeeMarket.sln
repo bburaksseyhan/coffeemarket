@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.808.2
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMarket.Catalog.Api", "CoffeeMarket.Catalog.Api\CoffeeMarket.Catalog.Api.csproj", "{63F15252-A279-4095-BC2D-F05251225272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMarket.Gateway.Api", "CoffeeMarket.Gateway.Api\CoffeeMarket.Gateway.Api.csproj", "{17C82DE5-9168-4DB3-9A20-C0AE9D234B41}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1753A3BC-7F93-44EC-BF9D-AFC1CD2F9A85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "microservices", "microservices", "{DE384DDC-969F-459C-BEC8-8D91CEF4EF4C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "gateway", "gateway", "{DCBC11CB-6677-446A-966C-B622567077BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeMarket.Customer.Api", "CoffeeMarket.Customer.Api\CoffeeMarket.Customer.Api.csproj", "{A401E999-C20A-49C7-A21C-4A87E1719188}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{63F15252-A279-4095-BC2D-F05251225272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{63F15252-A279-4095-BC2D-F05251225272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{63F15252-A279-4095-BC2D-F05251225272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{63F15252-A279-4095-BC2D-F05251225272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17C82DE5-9168-4DB3-9A20-C0AE9D234B41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17C82DE5-9168-4DB3-9A20-C0AE9D234B41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17C82DE5-9168-4DB3-9A20-C0AE9D234B41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17C82DE5-9168-4DB3-9A20-C0AE9D234B41}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A401E999-C20A-49C7-A21C-4A87E1719188}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A401E999-C20A-49C7-A21C-4A87E1719188}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A401E999-C20A-49C7-A21C-4A87E1719188}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A401E999-C20A-49C7-A21C-4A87E1719188}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D97D5CA7-8613-4D87-91CB-01C7385C121D}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DE384DDC-969F-459C-BEC8-8D91CEF4EF4C} = {1753A3BC-7F93-44EC-BF9D-AFC1CD2F9A85}
+		{DCBC11CB-6677-446A-966C-B622567077BC} = {1753A3BC-7F93-44EC-BF9D-AFC1CD2F9A85}
+		{17C82DE5-9168-4DB3-9A20-C0AE9D234B41} = {DCBC11CB-6677-446A-966C-B622567077BC}
+		{63F15252-A279-4095-BC2D-F05251225272} = {DE384DDC-969F-459C-BEC8-8D91CEF4EF4C}
+		{A401E999-C20A-49C7-A21C-4A87E1719188} = {DE384DDC-969F-459C-BEC8-8D91CEF4EF4C}
+	EndGlobalSection
+EndGlobal
